@@ -19,9 +19,9 @@ namespace AppConsoleLivre
             NombrePage = nbrpage;
         }
 
-        public void affichelesdetailsduLivre()
+        public virtual void affichedetails()
         {
-            Console.WriteLine($"le nom de l'auteur est {Auteur}, le titre est {Titre} et a pour nombre de page {NombrePage}")
+            Console.WriteLine ($"le nom de l'auteur est {Auteur}, le titre est {Titre} et a pour nombre de page {NombrePage}");
         }
 }
             
