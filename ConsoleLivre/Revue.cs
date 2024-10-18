@@ -17,7 +17,7 @@ namespace AppConsoleLivre
         }
         public override void affichedetails()
         {
-            Console.WriteLine($"{ }");
+            Console.WriteLine($"Annee: {Annee}");
             base.affichedetails();
             
         }
